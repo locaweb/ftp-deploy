@@ -34,6 +34,6 @@ host | Servidor FTP | Sim | N/A
 user | Usuário FTP | Sim | N/A
 password | Senha do usuário FTP | Sim | N/A
 localDir | Diretório do projeto a ser copiado a sua hospedagem | Não | .
-remoteDir | Diretório da sua hospedagem que irá receber os arquivos copiados | Não | 'public_html'
+remoteDir | Diretório da sua hospedagem que irá receber os arquivos copiados, **caso sua hospedagem for Windows use o valor 'web'** | Não | 'public_html'
 forceSsl | Forçar encryptação SSL | Não | false
 options | Opções adicionais ao uso do comando [lftp](http://lftp.yar.ru/lftp-man.pdf) | Não | ''
