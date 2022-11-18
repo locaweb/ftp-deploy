@@ -1,4 +1,4 @@
-name: 'ftp-deploy-locaweb'
+name: 'FTP Deploy Locaweb'
 author: 'Locaweb'
 description: 'Automatize o envio de arquivos de FTP do seu site para o seu site Locaweb!'
 inputs:
