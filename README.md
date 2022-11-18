@@ -1,6 +1,6 @@
-# ftp-action-studies
+# ftp-deploy
 
-Automatize o envio de arquivos de FTP do seu site para o seu site lw!
+Automatize o envio de arquivos de FTP do seu site para o seu site Locaweb!
 
 ## Exemplo de uso
 
