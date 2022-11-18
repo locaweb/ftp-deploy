@@ -1,6 +1,6 @@
-name: 'studies-lwftp-testing'
-author: 'Allan <awallan259@gmail.com>'
-description: 'Testing description'
+name: 'ftp-deploy'
+author: 'Locaweb'
+description: 'Automatize o envio de arquivos de FTP do seu site para o seu site Locaweb!'
 inputs:
   host:
     description: 'FTP host'
