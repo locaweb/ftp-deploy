@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: studies-lwftp-testing
-      uses: allanalves23/ftp-action-studies@0.0.4
+    - name: ftp-deploy
+      uses: locaweb/ftp-deploy@1.0.0
       with:
         host: ${{ secrets.HOST }} 
         user: ${{ secrets.USER }}
