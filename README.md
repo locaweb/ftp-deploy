@@ -23,6 +23,9 @@ jobs:
         localDir: "dist"
 ```
 
+
+> Disclaimer: Use secrets para os dados de acesso do seu Servidor FTP, segredos evitam de você expor dados sensíveis no seu código fonte. Para mais detalhes de uso de secrets no github acesse https://docs.github.com/en/actions/security-guides/encrypted-secrets 
+
 ## Parâmetros de uso
 
 Parâmetro | Descrição | É requerido? | Padrão
