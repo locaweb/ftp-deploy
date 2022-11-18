@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: ftp-deploy
-      uses: locaweb/ftp-deploy@1.0.0
+    - name: FTP Deploy Locaweb
+      uses: locaweb/ftp-deploy@0.0.1
       with:
         host: ${{ secrets.HOST }} 
         user: ${{ secrets.USER }}
