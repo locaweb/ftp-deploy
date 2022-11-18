@@ -30,9 +30,9 @@ jobs:
 
 Parâmetro | Descrição | É requerido? | Padrão
 --- | --- | --- | ---
-host | Servidor FTP | Sim | N/A
+host | Host | Sim | N/A
 user | Usuário FTP | Sim | N/A
-password | Senha do usuário FTP | Sim | N/A
+password | Senha | Sim | N/A
 localDir | Diretório do projeto a ser copiado a sua hospedagem | Não | .
 remoteDir | Diretório da sua hospedagem que irá receber os arquivos copiados, **caso sua hospedagem for Windows use o valor 'web'** | Não | 'public_html'
 forceSsl | Forçar encryptação SSL | Não | false
