@@ -12,7 +12,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: FTP Deploy Locaweb
       uses: locaweb/ftp-deploy@1.0.0
